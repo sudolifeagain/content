@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   label-rebase-needed:
-    uses: mdn/workflows/.github/workflows/pr-rebase-needed.yml@5c0fe55eace1852dc2a10875c3a399750f5e72be  # main
+    uses: mdn/workflows/.github/workflows/pr-rebase-needed.yml@5c0fe55eace1852dc2a10875c3a399750f5e72be # main
     with:
       target-repo: "mdn/content"
     secrets:
