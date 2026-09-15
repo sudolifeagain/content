@@ -67,5 +67,8 @@
   "devDependencies": {
     "jest": "^29.7.0"
   },
+  "resolutions": {
+    "@mdn/rari": "0.1.22"
+  },
   "packageManager": "yarn@1.22.22"
 }

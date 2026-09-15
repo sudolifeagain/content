@@ -15,7 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: initial labelling
-        uses: andymckay/labeler@3a4296e9dcdf9576b0456050db78cfd34853f260 # master
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
-          add-labels: "needs triage"
-          ignore-if-assigned: true
+          script: |
+            if (!context.payload.issue.assignee) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['needs triage'],
+              });
+            }
