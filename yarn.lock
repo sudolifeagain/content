@@ -958,10 +958,10 @@
   resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.6.33.tgz#7936c50a4819fccad39ada5aff34418d1c8bbed0"
   integrity sha512-56GEfTIgrPXAc9EL3MbJmv0QiIxZR/UzpOCzPtCGsW/IYr+3Bj1DbtBXnNMD2vOMqv1UVdCxy7LXxRcU+wxO5A==
 
-"@mdn/rari@0.1.49", "@mdn/rari@^0.1.21":
-  version "0.1.49"
-  resolved "https://registry.yarnpkg.com/@mdn/rari/-/rari-0.1.49.tgz#abee70b8b1f0778b6d0bea0a1d3947ae796d4f56"
-  integrity sha512-7Qha/9PZXGbTImQ+8IfW+eKQnAJWgFY3d1gvuhH/ZXTiISoM9rEjOnD6JMjvBrqJzEy59y7E6gOTNIKjHuXoWg==
+"@mdn/rari@0.1.22", "@mdn/rari@^0.1.21":
+  version "0.1.22"
+  resolved "https://registry.yarnpkg.com/@mdn/rari/-/rari-0.1.22.tgz#0cac3f587112d82a66c53f2904ddd4aed89df187"
+  integrity sha512-GOBrd6QGGuCt1ym4Dp+epqbsQwkbUapBmm+8Q915WrzkD3iErq5FQd0R9BQkoctoQQEIaFkOr1jJFw1YStpaMw==
   dependencies:
     extract-zip "^2.0.1"
     https-proxy-agent "^7.0.2"
